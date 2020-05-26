@@ -1,2 +1,2 @@
 # stepik-auto-tests-course
-this is for stepik course homework
+This is for stepik course homework (https://stepik.org/course/575)
