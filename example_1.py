@@ -1,8 +1,12 @@
-s = 'My Name is Julia'
+import unittest
 
-if 'Name' in s:
-    print('Substring found')
+class TestAbs(unittest.TestCase):
+    def test_abs1(self):
+        self.assertEqual(abs(-42), 42, "Should be absolute value of a number")
 
-index = s.find('Name')
-if index != -1:
-    print(f'Substring found at index {index}')
+    def test_abs2(self):
+        self.assertEqual(abs(-42), -42, "Should be absolute value of a number")
+
+
+if __name__ == "__main__":
+    unittest.main()

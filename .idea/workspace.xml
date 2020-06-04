@@ -26,10 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="Добавил адрес ссылки">
-      <change afterPath="$PROJECT_DIR$/example_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_21_23__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_21_23__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_21_27__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_21_27__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_1.py" afterDir="false" />
     </list>
     <list id="3260f75d-c677-465e-85fb-42bbee311faf" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit cd143487" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,27 +69,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunManager" selected="Python.example_1">
-    <configuration name="Example 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="stepik-auto-tests-course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example 1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="example_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stepik-auto-tests-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,11 +90,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="example_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stepik-auto-tests-course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.example_1" />
+      <item itemvalue="Python.example_2" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.example_1" />
-        <item itemvalue="Python.Example 1" />
-        <item itemvalue="Python.Example 1" />
+        <item itemvalue="Python.example_2" />
         <item itemvalue="Python.Example 1" />
         <item itemvalue="Python.Example 1" />
       </list>
@@ -230,7 +235,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="test_work" />
                       </list>
                     </value>
                   </entry>
@@ -254,7 +259,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="stepik-auto-tests-course" />
+                        <option value="test_work" />
                       </list>
                     </value>
                   </entry>
@@ -306,10 +311,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1325" y="386" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591134488030" />
-    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591134248159">
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591273361123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591134248159" />
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591273361123" />
     <state x="1249" y="234" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1590664281598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,22 +327,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591134356494" />
-    <state width="936" height="279" key="GridCell.Tab.0.bottom" timestamp="1591190668957">
+    <state width="895" height="276" key="GridCell.Tab.0.bottom" timestamp="1591288859730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591190668957" />
-    <state width="936" height="279" key="GridCell.Tab.0.center" timestamp="1591190668956">
+    <state width="895" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591288859730" />
+    <state width="895" height="276" key="GridCell.Tab.0.center" timestamp="1591288859730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591190668956" />
-    <state width="936" height="279" key="GridCell.Tab.0.left" timestamp="1591190668956">
+    <state width="895" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591288859730" />
+    <state width="895" height="276" key="GridCell.Tab.0.left" timestamp="1591288859730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591190668956" />
-    <state width="936" height="279" key="GridCell.Tab.0.right" timestamp="1591190668957">
+    <state width="895" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591288859730" />
+    <state width="895" height="276" key="GridCell.Tab.0.right" timestamp="1591288859730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591190668957" />
+    <state width="895" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591288859730" />
     <state x="184" y="85" width="1645" height="869" key="MergeDialog" timestamp="1590776637763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -362,9 +367,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590498960316" />
-    <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590776866269">
+    <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591192980637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590776866269" />
+    <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591192980637" />
   </component>
 </project>
