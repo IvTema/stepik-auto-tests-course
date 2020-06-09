@@ -25,7 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="Only samples" />
+    <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="Only samples">
+      <change afterPath="$PROJECT_DIR$/example_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_21_23_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_21_23__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_21_27_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2020_21_27__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_2.py" afterDir="false" />
+    </list>
     <list id="3260f75d-c677-465e-85fb-42bbee311faf" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit cd143487" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +67,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examples" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager" selected="Python.example_1">
+  <component name="RunManager" selected="Python.example_3">
     <configuration name="example_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stepik-auto-tests-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,16 +113,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="example_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="stepik-auto-tests-course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.example_1" />
       <item itemvalue="Python.example_2" />
+      <item itemvalue="Python.example_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.example_3" />
         <item itemvalue="Python.example_1" />
         <item itemvalue="Python.example_2" />
-        <item itemvalue="Python.Example 1" />
-        <item itemvalue="Python.Example 1" />
       </list>
     </recent_temporary>
   </component>
@@ -324,26 +354,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1053" y="100" width="774" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590506694559" />
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1591134356494">
+    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1591307951694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591134356494" />
-    <state width="895" height="276" key="GridCell.Tab.0.bottom" timestamp="1591288859730">
+    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591307951694" />
+    <state width="936" height="197" key="GridCell.Tab.0.bottom" timestamp="1591735661257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="895" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591288859730" />
-    <state width="895" height="276" key="GridCell.Tab.0.center" timestamp="1591288859730">
+    <state width="936" height="197" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591735661257" />
+    <state width="936" height="197" key="GridCell.Tab.0.center" timestamp="1591735661257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="895" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591288859730" />
-    <state width="895" height="276" key="GridCell.Tab.0.left" timestamp="1591288859730">
+    <state width="936" height="197" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591735661257" />
+    <state width="936" height="197" key="GridCell.Tab.0.left" timestamp="1591735661257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="895" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591288859730" />
-    <state width="895" height="276" key="GridCell.Tab.0.right" timestamp="1591288859730">
+    <state width="936" height="197" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591735661257" />
+    <state width="936" height="197" key="GridCell.Tab.0.right" timestamp="1591735661257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="895" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591288859730" />
+    <state width="936" height="197" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591735661257" />
+    <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1591731404715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591731404715" />
+    <state width="936" height="347" key="GridCell.Tab.1.center" timestamp="1591731404715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591731404715" />
+    <state width="936" height="347" key="GridCell.Tab.1.left" timestamp="1591731404715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591731404715" />
+    <state width="936" height="347" key="GridCell.Tab.1.right" timestamp="1591731404715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591731404715" />
     <state x="184" y="85" width="1645" height="869" key="MergeDialog" timestamp="1590776637763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -364,10 +410,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="252" width="858" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590679630394" />
-    <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590498960316">
+    <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591725444696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590498960316" />
+    <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591725444696" />
     <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591192980637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
