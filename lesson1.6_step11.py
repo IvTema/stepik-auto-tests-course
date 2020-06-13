@@ -7,11 +7,11 @@ try:
     browser.get(link)
 
     name = browser.find_element_by_css_selector('.first_block>.first_class>.first')
-    name.send_keys('Шингыз')
+    name.send_keys('Walter')
     lastname = browser.find_element_by_css_selector('.first_block>.second_class>.second')
-    lastname.send_keys('Возбухамедов')
+    lastname.send_keys('White')
     mail = browser.find_element_by_css_selector('.first_block>.third_class>.third')
-    mail.send_keys('itisokto@begay.too')
+    mail.send_keys('sayMyName@drugs.net')
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
