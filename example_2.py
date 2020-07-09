@@ -1,35 +1,28 @@
-import unittest
+import pytest
 from selenium import webdriver
 
-link = "http://suninjuly.github.io/registration1.html"
-browser = webdriver.Chrome()
-browser.get(link)
+samples = [
+    ("236895","a" ),
+    ("b" "236896"),
+    ("c", "236897"),
+    ("d", "236898"),
+    ("e", "236899"),
+    ("f" "236903"),
+    ("g", "236904"),
+    ("h", "236905")
+]
 
-class TestSystem(unittest.TestCase):
-    def test_link(self):
-        element_registration = browser.find_element_by_css_selector('h1').text
-        self.assertEqual(element_registration, 'Registration', "page_open_error")
-    def test_name(self):
-        name = browser.find_element_by_css_selector('.first_block>.first_class>.first')
-        name.send_keys('Моточек')
-        self.assertEqual(name.get_attribute('placeholder'), 'Input your first name',
-                         "name_past_error")
-    def test_last_name(self):
-        lastname = browser.find_element_by_css_selector('.first_block>.second_class>.second')
-        lastname.send_keys('Ниточек')
-        self.assertEqual(lastname.get_attribute('placeholder'), 'Input your last name',
-                         "last_name_past_error")
-    def test_mail(self):
-        mail = browser.find_element_by_css_selector('.first_block>.third_class>.third')
-        mail.send_keys('itisoktobe@grey.too')
-        self.assertEqual(mail.get_attribute('placeholder'), 'Input your email',
-                         "mail_past_error")
-    def test_button(self):
-        button = browser.find_element_by_css_selector("button.btn")
-        button.click()
-        congratulation = browser.find_element_by_css_selector("h1")
-        self.assertEqual(congratulation.text, 'Congratulations! You have successfully registered!',
-                         "button_click_error")
+@pytest.fixture(scope="function")
+def browser():
+    print("\nstart browser for test..")
+    browser = webdriver.Chrome()
+    yield browser
+    print("\nquit browser..")
+    browser.quit()
 
-if __name__ == "__main__":
-    unittest.main()
+@pytest.mark.parametrize('num, code', samples)
+def test_correct_sign(browser, num, code):
+        link = "https://stepik.org/lesson/{}/step/1".format(code)
+        print("Номер ссылки %s" % num)
+        browser.get(link)
+        browser.find_element_by_css_selector("#login_link")

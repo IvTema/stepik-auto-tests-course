@@ -1,62 +1,28 @@
-import unittest
+import pytest
 from selenium import webdriver
-import time
 
-class TestSystem(unittest.TestCase):
-    def test_1st(self):
-        link = "http://suninjuly.github.io/registration1.html"
-        browser = webdriver.Chrome()
+samples = [
+    ("a", "236895"),
+    ("b", "236896"),
+    ("c", "236897"),
+    ("d", "236898"),
+    ("e", "236899"),
+    ("f", "236903"),
+    ("g", "236904"),
+    ("h", "236905")
+]
+
+@pytest.fixture(scope="function")
+def browser():
+    print("\nstart browser for test..")
+    browser = webdriver.Chrome()
+    yield browser
+    print("\nquit browser..")
+    browser.quit()
+
+@pytest.mark.parametrize('num, code', samples)
+def test_correct_sign(browser, num, code):
+        link = "https://stepik.org/lesson/{}/step/1".format(code)
+        print("Номер ссылки %s" % num)
         browser.get(link)
-        name = browser.find_element_by_css_selector('.first_block>.first_class>.first')
-        name.send_keys('Шингыз')
-        lastname = browser.find_element_by_css_selector('.first_block>.second_class>.second')
-        lastname.send_keys('Возбухамедов')
-        mail = browser.find_element_by_css_selector('.first_block>.third_class>.third')
-        mail.send_keys('itisokto@begay.too')
-
-        # Отправляем заполненную форму
-        button = browser.find_element_by_css_selector("button.btn")
-        button.click()
-
-        # Проверяем, что смогли зарегистрироваться
-        # ждем загрузки страницы
-        time.sleep(1)
-
-        # находим элемент, содержащий текст
-        welcome_text_elt = browser.find_element_by_tag_name("h1")
-        # записываем в переменную welcome_text текст из элемента welcome_text_elt
-        welcome_text = welcome_text_elt.text
-
-        # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-        self.assertEqual(welcome_text, 'Congratulations! You have successfully registered!',
-                             "button_click_error")
-    def test_2nd(self):
-        link = "http://suninjuly.github.io/registration2.html"
-        browser = webdriver.Chrome()
-        browser.get(link)
-        name = browser.find_element_by_css_selector('.first_block>.first_class>.first')
-        name.send_keys('Шингыз')
-        lastname = browser.find_element_by_css_selector('.first_block>.second_class>.second')
-        lastname.send_keys('Возбухамедов')
-        mail = browser.find_element_by_css_selector('.first_block>.third_class>.third')
-        mail.send_keys('itisokto@begay.too')
-
-        # Отправляем заполненную форму
-        button = browser.find_element_by_css_selector("button.btn")
-        button.click()
-
-        # Проверяем, что смогли зарегистрироваться
-        # ждем загрузки страницы
-        time.sleep(1)
-
-        # находим элемент, содержащий текст
-        welcome_text_elt = browser.find_element_by_tag_name("h1")
-        # записываем в переменную welcome_text текст из элемента welcome_text_elt
-        welcome_text = welcome_text_elt.text
-
-        # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-        self.assertEqual(welcome_text, 'Congratulations! You have successfully registered!',
-                             "button_click_error")
-
-if __name__ == "__main__":
-    unittest.main()
+        browser.find_element_by_css_selector("textarea").send_keys("")

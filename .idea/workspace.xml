@@ -25,10 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="Only samples">
-      <change afterPath="$PROJECT_DIR$/example_4.py" afterDir="false" />
+    <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="16.6_s11 / 3.2_s13_1st / 3.2_s13_2nd edited">
+      <change beforePath="$PROJECT_DIR$/.idea/stepik-auto-tests-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stepik-auto-tests-course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_2.py" afterDir="false" />
     </list>
     <list id="3260f75d-c677-465e-85fb-42bbee311faf" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit cd143487" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +63,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examples" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example_2.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in example_4.py">
+  <component name="RunManager" selected="Python tests.pytest in example_1.py">
     <configuration name="example_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stepik-auto-tests-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,16 +144,68 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for example_4.TestSystem.test_1st" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="stepik-auto-tests-course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;example_4.TestSystem.test_1st&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in example_1.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="stepik-auto-tests-course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Nameman\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/example_1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in example_2.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="stepik-auto-tests-course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Nameman\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-v -rxX&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/example_2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.example_1" />
       <item itemvalue="Python.example_2" />
       <item itemvalue="Python.example_3" />
+      <item itemvalue="Python tests.pytest in example_1.py" />
+      <item itemvalue="Python tests.pytest in example_2.py" />
       <item itemvalue="Python tests.Unittests in example_4.py" />
+      <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in example_4.py" />
         <item itemvalue="Python.example_1" />
+        <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
+        <item itemvalue="Python tests.Unittests in example_4.py" />
         <item itemvalue="Python.example_3" />
         <item itemvalue="Python.example_2" />
       </list>
@@ -360,54 +413,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1325" y="386" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591134488030" />
-    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591273361123">
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593545521884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591273361123" />
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593545521884" />
     <state x="1249" y="234" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1590664281598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1249" y="234" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590664281598" />
+    <state x="1142" y="106" key="#pytest_in_example_3.py" timestamp="1592143004316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1142" y="106" key="#pytest_in_example_3.py/0.0.1920.1040@0.0.1920.1040" timestamp="1592143004316" />
     <state x="1053" y="100" width="774" height="840" key="DiffContextDialog" timestamp="1590506694559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1053" y="100" width="774" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590506694559" />
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1592062650070">
+    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1592506103772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592062650070" />
-    <state width="931" height="336" key="GridCell.Tab.0.bottom" timestamp="1592062393442">
+    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592506103772" />
+    <state width="936" height="249" key="GridCell.Tab.0.bottom" timestamp="1594311254228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592062393442" />
-    <state width="931" height="336" key="GridCell.Tab.0.center" timestamp="1592062393442">
+    <state width="936" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594311254228" />
+    <state width="936" height="249" key="GridCell.Tab.0.center" timestamp="1594311254228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592062393442" />
-    <state width="931" height="336" key="GridCell.Tab.0.left" timestamp="1592062393442">
+    <state width="936" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594311254228" />
+    <state width="936" height="249" key="GridCell.Tab.0.left" timestamp="1594311254228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592062393442" />
-    <state width="931" height="336" key="GridCell.Tab.0.right" timestamp="1592062393442">
+    <state width="936" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594311254228" />
+    <state width="936" height="249" key="GridCell.Tab.0.right" timestamp="1594311254228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592062393442" />
-    <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1591731404715">
+    <state width="936" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594311254228" />
+    <state width="961" height="344" key="GridCell.Tab.1.bottom" timestamp="1592849681023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591731404715" />
-    <state width="936" height="347" key="GridCell.Tab.1.center" timestamp="1591731404715">
+    <state width="961" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592849681023" />
+    <state width="961" height="344" key="GridCell.Tab.1.center" timestamp="1592849681023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591731404715" />
-    <state width="936" height="347" key="GridCell.Tab.1.left" timestamp="1591731404715">
+    <state width="961" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592849681023" />
+    <state width="961" height="344" key="GridCell.Tab.1.left" timestamp="1592849681023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591731404715" />
-    <state width="936" height="347" key="GridCell.Tab.1.right" timestamp="1591731404715">
+    <state width="961" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592849681023" />
+    <state width="961" height="344" key="GridCell.Tab.1.right" timestamp="1592849681023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591731404715" />
+    <state width="961" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592849681023" />
     <state x="184" y="85" width="1645" height="869" key="MergeDialog" timestamp="1590776637763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -416,10 +473,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="848" y="387" width="506" height="283" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590776484470" />
-    <state x="922" y="164" key="SettingsEditor" timestamp="1590664365398">
+    <state x="922" y="164" key="SettingsEditor" timestamp="1592074545089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590664365398" />
+    <state x="922" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592074545089" />
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1590775299372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -432,6 +489,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591725444696" />
+    <state x="991" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592846434203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="991" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1592846434203" />
     <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591192980637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
