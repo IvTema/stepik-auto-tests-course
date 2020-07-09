@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="16.6_s11 / 3.2_s13_1st / 3.2_s13_2nd edited">
-      <change beforePath="$PROJECT_DIR$/.idea/stepik-auto-tests-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stepik-auto-tests-course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_2.py" afterDir="false" />
-    </list>
+    <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="16.6_s11 / 3.2_s13_1st / 3.2_s13_2nd edited" />
     <list id="3260f75d-c677-465e-85fb-42bbee311faf" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit cd143487" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,10 +191,10 @@
       <item itemvalue="Python.example_1" />
       <item itemvalue="Python.example_2" />
       <item itemvalue="Python.example_3" />
-      <item itemvalue="Python tests.pytest in example_1.py" />
-      <item itemvalue="Python tests.pytest in example_2.py" />
       <item itemvalue="Python tests.Unittests in example_4.py" />
       <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
+      <item itemvalue="Python tests.pytest in example_1.py" />
+      <item itemvalue="Python tests.pytest in example_2.py" />
     </list>
     <recent_temporary>
       <list>

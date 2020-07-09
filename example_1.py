@@ -1,6 +1,9 @@
 import pytest
+import math
 from selenium import webdriver
 
+def answer(x):
+    return math.log(int(time.time()))
 samples = [
     ("a", "236895"),
     ("b", "236896"),
