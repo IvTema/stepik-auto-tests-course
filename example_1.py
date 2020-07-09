@@ -1,9 +1,14 @@
 import pytest
 import math
+import time
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-def answer(x):
+def answer():
     return math.log(int(time.time()))
+
 samples = [
     ("a", "236895"),
     ("b", "236896"),
@@ -28,4 +33,7 @@ def test_correct_sign(browser, num, code):
         link = "https://stepik.org/lesson/{}/step/1".format(code)
         print("Номер ссылки %s" % num)
         browser.get(link)
-        browser.find_element_by_css_selector("textarea").send_keys("")
+        text_field = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.TAG_NAME, "textarea")))
+        text_field.send_keys(str(math.log(int(time.time()))))
+        browser.find_element_by_css_selector(".submit-submission").click()
+        print(browser.find_element_by_css_selector('.smart-hints__hint').text)

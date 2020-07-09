@@ -25,7 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="16.6_s11 / 3.2_s13_1st / 3.2_s13_2nd edited" />
+    <list default="true" id="74816646-5655-4ec4-bac1-053d07838f6b" name="Default Changelist" comment="16.6_s11 / 3.2_s13_1st / 3.2_s13_2nd edited">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_3.py" afterDir="false" />
+    </list>
     <list id="3260f75d-c677-465e-85fb-42bbee311faf" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit cd143487" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/example_2.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in example_1.py">
+  <component name="RunManager" selected="Python tests.pytest in example_2.py">
     <configuration name="example_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stepik-auto-tests-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,18 +196,18 @@
       <item itemvalue="Python.example_1" />
       <item itemvalue="Python.example_2" />
       <item itemvalue="Python.example_3" />
-      <item itemvalue="Python tests.Unittests in example_4.py" />
-      <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
       <item itemvalue="Python tests.pytest in example_1.py" />
       <item itemvalue="Python tests.pytest in example_2.py" />
+      <item itemvalue="Python tests.Unittests in example_4.py" />
+      <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.example_3" />
+        <item itemvalue="Python.example_2" />
         <item itemvalue="Python.example_1" />
         <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
         <item itemvalue="Python tests.Unittests in example_4.py" />
-        <item itemvalue="Python.example_3" />
-        <item itemvalue="Python.example_2" />
       </list>
     </recent_temporary>
   </component>
@@ -428,22 +433,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592506103772" />
-    <state width="936" height="249" key="GridCell.Tab.0.bottom" timestamp="1594311254228">
+    <state width="1166" height="281" key="GridCell.Tab.0.bottom" timestamp="1594335840224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594311254228" />
-    <state width="936" height="249" key="GridCell.Tab.0.center" timestamp="1594311254228">
+    <state width="1166" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594335840224" />
+    <state width="1166" height="281" key="GridCell.Tab.0.center" timestamp="1594335840224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594311254228" />
-    <state width="936" height="249" key="GridCell.Tab.0.left" timestamp="1594311254228">
+    <state width="1166" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594335840224" />
+    <state width="1166" height="281" key="GridCell.Tab.0.left" timestamp="1594335840224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594311254228" />
-    <state width="936" height="249" key="GridCell.Tab.0.right" timestamp="1594311254228">
+    <state width="1166" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594335840224" />
+    <state width="1166" height="281" key="GridCell.Tab.0.right" timestamp="1594335840224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594311254228" />
+    <state width="1166" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594335840224" />
     <state width="961" height="344" key="GridCell.Tab.1.bottom" timestamp="1592849681023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
