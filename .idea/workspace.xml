@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eff5f9f0-0a19-4c3e-8d52-bae88960ac19" name="Default Changelist" comment="lesson3.6_step3.py added">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_4.py" afterDir="false" />
-    </list>
+    <list default="true" id="eff5f9f0-0a19-4c3e-8d52-bae88960ac19" name="Default Changelist" comment="lesson3.6_step3.py added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,11 +206,11 @@
       <item itemvalue="Python.example_1" />
       <item itemvalue="Python.example_2" />
       <item itemvalue="Python.example_3" />
-      <item itemvalue="Python tests.pytest in example_4.py" />
-      <item itemvalue="Python tests.pytest in example_1.py" />
-      <item itemvalue="Python tests.pytest in example_2.py" />
       <item itemvalue="Python tests.Unittests in example_4.py" />
       <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
+      <item itemvalue="Python tests.pytest in example_1.py" />
+      <item itemvalue="Python tests.pytest in example_2.py" />
+      <item itemvalue="Python tests.pytest in example_4.py" />
     </list>
     <recent_temporary>
       <list>
