@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eff5f9f0-0a19-4c3e-8d52-bae88960ac19" name="Default Changelist" comment="lesson3.6_step3.py added" />
+    <list default="true" id="eff5f9f0-0a19-4c3e-8d52-bae88960ac19" name="Default Changelist" comment="lesson3.6_step3.py added">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_07_2020_2_05__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_07_2020_2_05__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_07_2020_2_13__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_07_2020_2_13__Default_Changelist_.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,11 +209,11 @@
       <item itemvalue="Python.example_1" />
       <item itemvalue="Python.example_2" />
       <item itemvalue="Python.example_3" />
-      <item itemvalue="Python tests.Unittests in example_4.py" />
-      <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
       <item itemvalue="Python tests.pytest in example_1.py" />
       <item itemvalue="Python tests.pytest in example_2.py" />
       <item itemvalue="Python tests.pytest in example_4.py" />
+      <item itemvalue="Python tests.Unittests in example_4.py" />
+      <item itemvalue="Python tests.pytest for example_4.TestSystem.test_1st" />
     </list>
     <recent_temporary>
       <list>
@@ -444,22 +447,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595073940405" />
-    <state width="959" height="283" key="GridCell.Tab.0.bottom" timestamp="1595084386639">
+    <state width="1229" height="169" key="GridCell.Tab.0.bottom" timestamp="1595116096121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595084386639" />
-    <state width="959" height="283" key="GridCell.Tab.0.center" timestamp="1595084386639">
+    <state width="1229" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595116096121" />
+    <state width="1229" height="169" key="GridCell.Tab.0.center" timestamp="1595116096121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595084386639" />
-    <state width="959" height="283" key="GridCell.Tab.0.left" timestamp="1595084386639">
+    <state width="1229" height="169" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595116096121" />
+    <state width="1229" height="169" key="GridCell.Tab.0.left" timestamp="1595116096121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595084386639" />
-    <state width="959" height="283" key="GridCell.Tab.0.right" timestamp="1595084386639">
+    <state width="1229" height="169" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595116096121" />
+    <state width="1229" height="169" key="GridCell.Tab.0.right" timestamp="1595116096121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595084386639" />
+    <state width="1229" height="169" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595116096121" />
     <state width="961" height="344" key="GridCell.Tab.1.bottom" timestamp="1592849681023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
