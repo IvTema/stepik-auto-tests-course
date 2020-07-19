@@ -1,0 +1,50 @@
+Index: conftest.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import pytest\r\nfrom selenium import webdriver\r\n\r\ndef pytest_addoption(parser):\r\n    parser.addoption('--browser_name', action='store', default=None,\r\n                     help=\"Choose browser: chrome or firefox\")\r\n\r\n\r\n@pytest.fixture(scope=\"function\")\r\ndef browser(request):\r\n    browser_name = request.config.getoption(\"browser_name\")\r\n    browser = None\r\n    if browser_name == \"chrome\":\r\n        print(\"\\nstart chrome browser for test..\")\r\n        browser = webdriver.Chrome()\r\n    elif browser_name == \"firefox\":\r\n        print(\"\\nstart firefox browser for test..\")\r\n        browser = webdriver.Firefox()\r\n    else:\r\n        raise pytest.UsageError(\"--browser_name should be chrome or firefox\")\r\n    yield browser\r\n    print(\"\\nquit browser..\")\r\n    browser.quit()
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- conftest.py	(revision 54f0dbe4148205d61a9eae051622d42e8cfee9fe)
++++ conftest.py	(date 1595169373587)
+@@ -1,23 +1,35 @@
+ import pytest
++import time
+ from selenium import webdriver
++from selenium.webdriver.chrome.options import Options
+ 
+ def pytest_addoption(parser):
+-    parser.addoption('--browser_name', action='store', default=None,
++    parser.addoption('--browser_name', action='store', default='chrome',
+                      help="Choose browser: chrome or firefox")
++    parser.addoption('--language', action='store', default=None,
++                     help="Choose language: en; es; fr; ect.")
+ 
+ 
+ @pytest.fixture(scope="function")
+ def browser(request):
+     browser_name = request.config.getoption("browser_name")
+-    browser = None
++    user_language = request.config.getoption("language")
++
+     if browser_name == "chrome":
+         print("\nstart chrome browser for test..")
+-        browser = webdriver.Chrome()
++        options = Options()
++        options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
++        browser = webdriver.Chrome(options=options)
++
+     elif browser_name == "firefox":
+         print("\nstart firefox browser for test..")
+-        browser = webdriver.Firefox()
++        fp = webdriver.FirefoxProfile()
++        fp.set_preference("intl.accept_languages", user_language)
++        browser = webdriver.Firefox(firefox_profile=fp)
++
+     else:
+         raise pytest.UsageError("--browser_name should be chrome or firefox")
+     yield browser
+     print("\nquit browser..")
++    time.sleep(5)
+     browser.quit()
+\ No newline at end of file

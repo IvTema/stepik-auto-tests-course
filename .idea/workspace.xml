@@ -20,7 +20,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:test_work" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:lesson3.6_step9" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -28,6 +28,7 @@
     <list default="true" id="eff5f9f0-0a19-4c3e-8d52-bae88960ac19" name="Default Changelist" comment="lesson3.6_step3.py added">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_07_2020_2_05__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_07_2020_2_05__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_07_2020_2_13__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_07_2020_2_13__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/example_4.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in example_4.py">
+  <component name="RunManager" selected="Python tests.pytest in example_1.py">
     <configuration name="example_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stepik-auto-tests-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,7 +375,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="test_work" />
+                        <option value="lesson3.6_step9" />
                       </list>
                     </value>
                   </entry>
@@ -427,10 +428,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1325" y="386" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591134488030" />
-    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595073981219">
+    <state x="242" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595169913061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595073981219" />
+    <state x="242" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595169913061" />
     <state x="1249" y="234" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1590664281598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -447,22 +448,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595073940405" />
-    <state width="1229" height="169" key="GridCell.Tab.0.bottom" timestamp="1595116096121">
+    <state width="936" height="195" key="GridCell.Tab.0.bottom" timestamp="1595170061121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1229" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595116096121" />
-    <state width="1229" height="169" key="GridCell.Tab.0.center" timestamp="1595116096121">
+    <state width="936" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595170061121" />
+    <state width="936" height="195" key="GridCell.Tab.0.center" timestamp="1595170061120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1229" height="169" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595116096121" />
-    <state width="1229" height="169" key="GridCell.Tab.0.left" timestamp="1595116096121">
+    <state width="936" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595170061120" />
+    <state width="936" height="195" key="GridCell.Tab.0.left" timestamp="1595170061120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1229" height="169" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595116096121" />
-    <state width="1229" height="169" key="GridCell.Tab.0.right" timestamp="1595116096121">
+    <state width="936" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595170061120" />
+    <state width="936" height="195" key="GridCell.Tab.0.right" timestamp="1595170061120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1229" height="169" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595116096121" />
+    <state width="936" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595170061120" />
     <state width="961" height="344" key="GridCell.Tab.1.bottom" timestamp="1592849681023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -507,9 +508,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="991" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1592846434203" />
-    <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591192980637">
+    <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1595170070942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591192980637" />
+    <state x="736" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595170070942" />
   </component>
 </project>
